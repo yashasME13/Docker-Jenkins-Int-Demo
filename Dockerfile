@@ -1,6 +1,6 @@
 # Use official OpenJDK 17 image as base
 # Stage 1: Build with Maven
-FROM maven:3.8.7-openjdk-17 AS build
+FROM maven:3.8.6-openjdk-17 AS build
 WORKDIR /app
 
 # Copy pom.xml and download dependencies first (for caching)
